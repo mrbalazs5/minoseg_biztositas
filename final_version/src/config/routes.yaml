@@ -1,0 +1,19 @@
+home:
+    path: /
+    controller: Controller\HomeController::indexAction
+    methods: GET
+
+get_products:
+    path: /products
+    controller: Controller\ProductController::getProductsAction
+    methods: GET
+
+registration:
+    path: /registration
+    controller: Controller\UserController::postRegistrationAction
+    methods: POST
+
+login:
+    path: /login
+    controller: Controller\UserController::postLoginAction
+    methods: POST
